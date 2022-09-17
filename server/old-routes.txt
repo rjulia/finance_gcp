@@ -1,0 +1,22 @@
+// app.get('/status', (req, res) => res.send('Success.') );
+
+// app.get('/boats', (req, res) => {
+//   connection.query(
+//     "select * from `boatdb`.`boats`",
+//     (error, results, fields) => {
+//       if(error) throw error;
+//       res.json(results);
+//     }
+//   );
+// });
+
+// app.route('/warehouses/:id')
+//   .get( (req, res, next) => {
+//     connection.query(
+//       "select * from `real-state`.`warehouses` where id = ?", req.params.id,
+//       (error, results, fields) => {
+//         if(error) throw error;
+//         res.json(results);
+//       }
+//     );
+//   });

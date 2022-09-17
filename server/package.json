@@ -1,0 +1,22 @@
+{
+  "name": "dogs_gcp",
+  "version": "1.0.0",
+  "description": "practice in nodejs",
+  "main": "index.js",
+  "author": "ramon julia",
+  "license": "yes",
+  "private": false,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.2",
+    "express": "^4.17.3",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "promise-mysql": "^5.2.0"
+  }
+}
